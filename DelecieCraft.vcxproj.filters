@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{94affa54-2381-4ffe-987b-a0c9076f8354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Camera">
+      <UniqueIdentifier>{b67331f8-283a-468d-bb1a-cb794ac5263f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Events">
+      <UniqueIdentifier>{685da874-4894-4548-857e-c27a8c4f1c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window">
+      <UniqueIdentifier>{f2f970a3-4184-4729-9ced-6503e92c7506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{19167cfa-bc4a-4a63-97a9-11cd58974c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Mesh">
+      <UniqueIdentifier>{2e83676c-a5a1-4d88-94fc-650f774cbd67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Postprocessing">
+      <UniqueIdentifier>{aa593b25-a4ec-40cf-ad32-fded554bfbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Postprocessing\GBuffer">
+      <UniqueIdentifier>{630d63d7-1a4d-4f02-b41a-fb32fcb3e483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Postprocessing\SSAO">
+      <UniqueIdentifier>{8877a7e0-e57b-4844-b670-7e99dcd43e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Renderer">
+      <UniqueIdentifier>{9c6f9f66-4040-451f-82fc-a70d95e9acde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Renderer\Base Renderer">
+      <UniqueIdentifier>{1a8ce767-2872-4cb2-940d-69f5d1d7567c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Renderer\Block Renderer">
+      <UniqueIdentifier>{7b8abe97-8350-410f-a652-caa9d43f0a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Renderer\Light Renderer">
+      <UniqueIdentifier>{8b71f1a4-d7e5-40a2-80e9-30907c6d0904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Renderer\Screen Renderer">
+      <UniqueIdentifier>{4d489ed7-acd0-4a44-a655-afde67768b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader">
+      <UniqueIdentifier>{53d75d14-0062-43ff-b948-230061d4c562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Texture">
+      <UniqueIdentifier>{cbc26725-bcf9-4ec7-86b6-dfdb18803625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{26ae42e9-3c5b-44b4-8530-e098ca5d7255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\BlockType">
+      <UniqueIdentifier>{3f6dafae-6f18-402a-8616-a77f4cc309fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Chunk">
+      <UniqueIdentifier>{0a4dd4b3-7b6b-468d-a7d6-d49271505be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\SuperChunk">
+      <UniqueIdentifier>{a875ab5f-89c6-4900-acef-aa571dceb9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Noise">
+      <UniqueIdentifier>{625a4ca8-cade-4b81-8ef5-6cfaa195d855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Noise\PerlinNoise">
+      <UniqueIdentifier>{3dd62ff1-2418-448d-81a8-b4e7ee6212ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Block">
+      <UniqueIdentifier>{de6e9a07-aa37-4918-baac-1919f3d00a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Constants">
+      <UniqueIdentifier>{cb4fed49-158d-411f-9121-c304179d16b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Postprocessing\Shadow Mapping">
+      <UniqueIdentifier>{7595d0d9-fe53-4f80-8123-b49e76b02caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Postprocessing\SSAO\ChunkSSAO">
+      <UniqueIdentifier>{a166ce34-6c7d-40c2-b536-62fe0cf789e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Light">
+      <UniqueIdentifier>{00254601-2402-4e6b-b7b2-816ef4219718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Light\Sun">
+      <UniqueIdentifier>{50b4e251-30d6-4db6-bed4-f7497cbf6652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\SSAO Shaders">
+      <UniqueIdentifier>{829b7b2d-5c31-4bff-97eb-20a54ebe9622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Shadow Mapping Shaders">
+      <UniqueIdentifier>{6199908f-c71d-49fb-8913-c29e22096c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Events\Mouse">
+      <UniqueIdentifier>{e3f8fe8a-57b6-4167-89ff-89f8ea351f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Events\Keyboard">
+      <UniqueIdentifier>{ae376824-ad7a-4e52-b8b8-cdef1312269c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Events\Events keys">
+      <UniqueIdentifier>{614facaf-d009-48aa-9f21-06288d78a241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Events\Window Events">
+      <UniqueIdentifier>{e091a17b-8c9d-4198-ae9e-f467e3fc0d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Threading">
+      <UniqueIdentifier>{466d62e1-8a9b-445c-845d-9248d13195ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Generators">
+      <UniqueIdentifier>{2a91413a-6b3d-4a62-a52d-f6ba5dc83cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader\ShaderCollection">
+      <UniqueIdentifier>{8b0f1381-8467-41cb-9a8c-898b00cc55d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader\ShaderType">
+      <UniqueIdentifier>{351bc8b1-51a1-47a6-a30f-e380c4512ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\SubSuperChunk">
+      <UniqueIdentifier>{8222a39c-f4ad-4a80-9c16-7ff53d0c2003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Player">
+      <UniqueIdentifier>{d9b3a06e-7da4-4007-8f72-01430d765565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\MovableObject">
+      <UniqueIdentifier>{13995514-73f8-4c35-8cc2-f8008a1f4e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Physics">
+      <UniqueIdentifier>{7a3e2119-86e5-458d-ab7f-18ede5188d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Physics\Force">
+      <UniqueIdentifier>{6eca7901-2b83-405f-8d30-2442832f7970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\RigidBody">
+      <UniqueIdentifier>{1c97dd9b-8660-4360-bd95-73806a5de040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\WorldTimer">
+      <UniqueIdentifier>{d7e788c9-b04b-40a2-a991-4bccedd7bb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Physics\Collider">
+      <UniqueIdentifier>{db5286ff-29d3-4ab4-87f7-bacb9656c4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Physics\Collider\BlockWorldCollider">
+      <UniqueIdentifier>{99e28ebe-aa3c-4458-91cb-72bc759696d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Physics\BoundingBox">
+      <UniqueIdentifier>{dc98b4d5-aa02-4eb3-bddf-a3dcfb949809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Object">
+      <UniqueIdentifier>{29e8f6fa-88ef-4576-adc1-ba9272d8c8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Interfaces">
+      <UniqueIdentifier>{e22ba866-9409-443f-ad50-23adcfce3d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Interfaces\IWatcher">
+      <UniqueIdentifier>{d39e8c3d-f097-4cdc-b057-11077a033ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Interfaces\IDraw">
+      <UniqueIdentifier>{11872319-c500-465e-8cae-f65708007396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Geometry">
+      <UniqueIdentifier>{a0c68e85-f557-4db0-a899-8894712fb478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Geometry\Primitives">
+      <UniqueIdentifier>{87695556-d491-4233-b9b1-72f7358c6ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Geometry\Primitives\2D">
+      <UniqueIdentifier>{e861d426-dee0-4a06-ae1b-aa9eedd29c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Geometry\Primitives\2D\Rectangle">
+      <UniqueIdentifier>{d4f95a8d-d1ef-413e-ac5e-7da0bd844232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Geometry\Primitives\3D">
+      <UniqueIdentifier>{38a8e1ce-31d0-44b2-bdd8-8efaf71d88bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Geometry\Primitives\3D\Rectangle3D">
+      <UniqueIdentifier>{98b91ccf-29a9-4475-969b-5da041fa897f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Geometry\Primitives\3D\Sphere">
+      <UniqueIdentifier>{2fc20325-15e4-4593-9841-b7c642a41a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Geometry\Primitives\1D">
+      <UniqueIdentifier>{e9fef583-6253-4fa2-8dce-239c1b23ecea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Geometry\Primitives\1D\Vertex">
+      <UniqueIdentifier>{692f06b3-0553-4ec2-bfd2-c2e63d89d7d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Mesh\ChunkMeshBuider">
+      <UniqueIdentifier>{3af90d1b-22f4-4a22-a8df-1af5a1ce41e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Displayed">
+      <UniqueIdentifier>{348ce854-0438-43c6-b3c1-8588af8b392f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Mesh\MeshBuilder">
+      <UniqueIdentifier>{1c2af255-6ff5-4f89-a4a9-844236197b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Mesh\RectangleMeshBuilder">
+      <UniqueIdentifier>{cc999457-6db8-4f41-9721-9cd2603e95b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Block.cpp">
+      <Filter>World\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockRenderer.cpp">
+      <Filter>Graphics\Renderer\Block Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Core\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>World\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkManager.cpp">
+      <Filter>World\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>Core\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="GBuffer.cpp">
+      <Filter>Graphics\Postprocessing\GBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="LightBlockRenderer.cpp">
+      <Filter>Graphics\Renderer\Light Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Graphics\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewFrustum.cpp">
+      <Filter>Core\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Graphics\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperChunk.cpp">
+      <Filter>World\SuperChunk</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAO.cpp">
+      <Filter>Graphics\Postprocessing\SSAO</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Graphics\Renderer\Base Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoise.cpp">
+      <Filter>World\Noise\PerlinNoise</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenRenderer.cpp">
+      <Filter>Graphics\Renderer\Screen Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMapping.cpp">
+      <Filter>Graphics\Postprocessing\Shadow Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkSSAO.cpp">
+      <Filter>Graphics\Postprocessing\SSAO\ChunkSSAO</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSource.cpp">
+      <Filter>Graphics\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>Graphics\Light\Sun</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Core\Events\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Core\Events\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="EventsKeys.cpp">
+      <Filter>Core\Events\Events keys</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowEvents.cpp">
+      <Filter>Core\Events\Window Events</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Core\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldGenerator.cpp">
+      <Filter>World\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockProps.cpp">
+      <Filter>World\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockBase.cpp">
+      <Filter>World\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCollection.cpp">
+      <Filter>Graphics\Shader\ShaderCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="SubSuperChunk.cpp">
+      <Filter>World\SubSuperChunk</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Core\Geometry\Primitives\3D\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Core\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MovableObject.cpp">
+      <Filter>Core\MovableObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Force.cpp">
+      <Filter>Core\Physics\Force</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Core\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldTimer.cpp">
+      <Filter>Core\WorldTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Core\Physics\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockWorldCollider.cpp">
+      <Filter>Core\Physics\Collider\BlockWorldCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Core\Physics\BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Core\Geometry\Primitives\2D\Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Core\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DelecieCraft.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle3D.cpp">
+      <Filter>Core\Geometry\Primitives\3D\Rectangle3D</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshBuilder.cpp">
+      <Filter>Graphics\Mesh\MeshBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkMeshBuilder.cpp">
+      <Filter>Graphics\Mesh\ChunkMeshBuider</Filter>
+    </ClCompile>
+    <ClCompile Include="Displayed.cpp">
+      <Filter>Graphics\Displayed</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleMeshBuilder.cpp">
+      <Filter>Graphics\Mesh\RectangleMeshBuilder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>World\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockRenderer.h">
+      <Filter>Graphics\Renderer\Block Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockType.h">
+      <Filter>World\BlockType</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Core\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>World\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkManager.h">
+      <Filter>World\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Faces.h">
+      <Filter>World\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="GBuffer.h">
+      <Filter>Graphics\Postprocessing\GBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="LightBlockRenderer.h">
+      <Filter>Graphics\Renderer\Light Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Graphics\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>World\Noise\PerlinNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Graphics\Renderer\Base Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenRenderer.h">
+      <Filter>Graphics\Renderer\Screen Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAO.h">
+      <Filter>Graphics\Postprocessing\SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperChunk.h">
+      <Filter>World\SuperChunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Graphics\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewFrustum.h">
+      <Filter>Core\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldConstants.h">
+      <Filter>Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMapping.h">
+      <Filter>Graphics\Postprocessing\Shadow Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkSSAO.h">
+      <Filter>Graphics\Postprocessing\SSAO\ChunkSSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource.h">
+      <Filter>Graphics\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>Graphics\Light\Sun</Filter>
+    </ClInclude>
+    <ClInclude Include="IWatcher.h">
+      <Filter>Core\Interfaces\IWatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Core\Events\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Core\Events\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="EventsKeys.h">
+      <Filter>Core\Events\Events keys</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowEvents.h">
+      <Filter>Core\Events\Window Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Core\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldGenerator.h">
+      <Filter>World\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockProps.h">
+      <Filter>World\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockBase.h">
+      <Filter>World\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCollection.h">
+      <Filter>Graphics\Shader\ShaderCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderType.h">
+      <Filter>Graphics\Shader\ShaderType</Filter>
+    </ClInclude>
+    <ClInclude Include="SubSuperChunk.h">
+      <Filter>World\SubSuperChunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Core\Geometry\Primitives\3D\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Core\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MovableObject.h">
+      <Filter>Core\MovableObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Force.h">
+      <Filter>Core\Physics\Force</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Core\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldTimer.h">
+      <Filter>Core\WorldTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Core\Physics\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockWorldCollider.h">
+      <Filter>Core\Physics\Collider\BlockWorldCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Core\Physics\BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Core\Geometry\Primitives\2D\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Core\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle3D.h">
+      <Filter>Core\Geometry\Primitives\3D\Rectangle3D</Filter>
+    </ClInclude>
+    <ClInclude Include="IDraw.h">
+      <Filter>Core\Interfaces\IDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Core\Geometry\Primitives\1D\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBuilder.h">
+      <Filter>Graphics\Mesh\MeshBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkMeshBuilder.h">
+      <Filter>Graphics\Mesh\ChunkMeshBuider</Filter>
+    </ClInclude>
+    <ClInclude Include="Displayed.h">
+      <Filter>Graphics\Displayed</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleMeshBuilder.h">
+      <Filter>Graphics\Mesh\RectangleMeshBuilder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ssao_geometry.fs">
+      <Filter>Файлы ресурсов\SSAO Shaders</Filter>
+    </None>
+    <None Include="ssao_geometry.vs">
+      <Filter>Файлы ресурсов\SSAO Shaders</Filter>
+    </None>
+    <None Include="ssao.vs">
+      <Filter>Файлы ресурсов\SSAO Shaders</Filter>
+    </None>
+    <None Include="ssao_blur.fs">
+      <Filter>Файлы ресурсов\SSAO Shaders</Filter>
+    </None>
+    <None Include="ssao_fs.glsl">
+      <Filter>Файлы ресурсов\SSAO Shaders</Filter>
+    </None>
+    <None Include="shadowVertex.glsl">
+      <Filter>Файлы ресурсов\Shadow Mapping Shaders</Filter>
+    </None>
+    <None Include="sceneFragment.glsl">
+      <Filter>Файлы ресурсов\Shadow Mapping Shaders</Filter>
+    </None>
+    <None Include="sceneVertex.glsl">
+      <Filter>Файлы ресурсов\Shadow Mapping Shaders</Filter>
+    </None>
+    <None Include="shadowFragment.glsl">
+      <Filter>Файлы ресурсов\Shadow Mapping Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
